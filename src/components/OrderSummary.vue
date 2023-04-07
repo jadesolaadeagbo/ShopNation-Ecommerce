@@ -7,7 +7,7 @@
         <table class="table is-fullwidth">
             <thead>
                 <tr>
-                    <th>Product</th>
+                    <th>Product</th> 
                     <th>Price</th>
                     <th>Quantity</th>
                     <th>Total</th>

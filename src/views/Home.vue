@@ -7,7 +7,7 @@
             </p>
             <p class="subtitle">
                 Shop from anywhere in the world!
-            </p>
+            </p> 
         </div>
     </section>
 

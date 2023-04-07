@@ -12,12 +12,12 @@
                             <th>Product</th>
                             <th>Price</th>
                             <th>Quantity</th>
-                            <th>Total</th>
+                            <th>Total</th> 
                             <th></th>
                         </tr>
                     </thead>
 
-                    <tbody>
+                    <tbody> 
                         <CartItem
                             v-for="item in cart.items"
                             v-bind:key="item.product.id"
@@ -36,9 +36,9 @@
 
                 <hr>
 
-                <router-link to="/cart/checkout" class="button is-dark">Proceed to checkout</router-link>
+                <button class="button is-dark">Proceed to checkout</button>
             </div>
-        </div>
+        </div> 
     </div>
 </template>
 
