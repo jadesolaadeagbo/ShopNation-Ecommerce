@@ -35,8 +35,12 @@
                 <strong>${{ cartTotalPrice.toFixed(2) }}</strong>, {{ cartTotalLength }} items
 
                 <hr>
+                <div class="buttons">
+                    <router-link to="/" class="button is-dark" >Go Back</router-link>
+                    <button class="button is-dark">Proceed to checkout</button>
+                    
+                </div>
 
-                <button class="button is-dark">Proceed to checkout</button>
             </div>
         </div> 
     </div>
@@ -80,3 +84,11 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+.buttons{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+</style>
